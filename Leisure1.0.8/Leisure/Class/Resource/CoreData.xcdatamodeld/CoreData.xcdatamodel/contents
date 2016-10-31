@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9048" systemVersion="14F27" minimumToolsVersion="Xcode 7.0">
+    <entity name="CollectionModel" representedClassName="CollectionModel" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="coverimg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DownloadModel" representedClassName="DownloadModel" syncable="YES">
+        <attribute name="coverimg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CollectionModel" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="DownloadModel" positionX="-63" positionY="18" width="128" height="105"/>
+    </elements>
+</model>
